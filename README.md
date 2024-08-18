@@ -2,6 +2,11 @@
 
 This project demonstrates sentiment analysis using various machine learning techniques. The main objective is to classify text data into positive, negative, or neutral sentiments.
 
+The project includes sentiment analysis on different types of text data:
+- **Twitter Data:** Analyzing sentiments expressed in tweets.
+- **Article Data:** Analyzing sentiments in news articles or blog posts.
+- **Simple Text:** Analyzing sentiments in plain text sentences or paragraphs.
+
 ## Project Structure
 
 - `SentimentTextAnalysis.ipynb`: The main Jupyter notebook containing the sentiment analysis code.
@@ -13,22 +18,22 @@ This project demonstrates sentiment analysis using various machine learning tech
 
 ## Setup Instructions
 
-1. Clone the repository:
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/your-username/sentiment-analysis.git
     cd sentiment-analysis
     ```
 
-2. Install the required dependencies:
+2. **Install the required dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Configure Kaggle API:
-    - Place your `kaggle.json` file in the appropriate directory.
-    - Run the notebook.
+3. **Configure Kaggle API:**
+    - Place your `kaggle.json` file in the appropriate directory (e.g., `~/.kaggle/` on Linux/Mac or `%USERPROFILE%/.kaggle/` on Windows).
+    - Ensure that the file has the correct permissions to be used by the Kaggle API.
 
-4. Run the Jupyter notebook:
+4. **Run the Jupyter notebook:**
     ```bash
     jupyter notebook SentimentTextAnalysis.ipynb
     ```
@@ -36,14 +41,4 @@ This project demonstrates sentiment analysis using various machine learning tech
 ## Dependencies
 
 The project uses the following Python libraries:
-- kaggle
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- nltk
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+-
