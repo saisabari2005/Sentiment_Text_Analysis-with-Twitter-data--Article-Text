@@ -41,4 +41,15 @@ The project includes sentiment analysis on different types of text data:
 ## Dependencies
 
 The project uses the following Python libraries:
--
+- `kaggle`
+- `pandas`
+- `numpy`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
+- `nltk`
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
