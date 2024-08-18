@@ -1,4 +1,35 @@
-
+# Ignore Python bytecode and other generated files
 __pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore environment settings
+.env
+.venv
+ENV/
+env/
+venv/
+*.env
+
+# Ignore kaggle.json (important for security)
 kaggle.json
+
+# Ignore data files (if you store datasets locally)
+data/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore VS Code settings (if you use Visual Studio Code)
+.vscode/
+
+# Ignore system files
+*.bak
+*.swp
